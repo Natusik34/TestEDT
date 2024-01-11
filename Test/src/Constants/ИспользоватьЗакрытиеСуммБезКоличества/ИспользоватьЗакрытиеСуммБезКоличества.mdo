@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93c6f6f0-ec3d-452b-a38b-e52882bbbdf9">
+  <producedTypes>
+    <managerType typeId="744611cb-212c-4b1e-80a0-bafa1a66f85f" valueTypeId="a896730b-0e2b-411b-bee1-db5d93a44abd"/>
+    <valueManagerType typeId="efdd9670-2f8b-48f8-bcad-4b6c88d61889" valueTypeId="9b985500-a8df-4b5f-b1d3-e4e8ed91f4fb"/>
+    <valueKeyType typeId="948bb5d7-0d95-4ba1-b802-2dc1a4624b9f" valueTypeId="4dc3601c-e4bd-4331-bbd0-201584d2d79e"/>
+  </producedTypes>
+  <name>ИспользоватьЗакрытиеСуммБезКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать закрытие сумм без количества</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

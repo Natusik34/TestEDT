@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b523d1b0-edc0-4cbd-a01c-196224f8ddea">
+  <name>КоллекцияСтатусовОбъектовТорговыхПлощадок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция статусов объектов торговых площадок</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Collection of statuses of trading platform objects</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="579ef73a-d95a-4112-945e-d5f57af2b46f">
+  <producedTypes>
+    <containerType typeId="67239955-0230-484f-afd9-379fdf491618" valueTypeId="9502631c-a010-4584-923e-36227e46c718"/>
+  </producedTypes>
+  <name>ОснованиеСтатусыОформленияДокументовСАТУРН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание статусы оформления документов САТУРН</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПланПримененияСАТУРН</types>
+    <types>CatalogRef.ИмпортируемаяПартияСАТУРН</types>
+  </type>
+</mdclass:DefinedType>

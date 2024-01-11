@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПоддержкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема поддержки оборудования</value>
+  </explanation>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DefinedType.ТорговыйОбъектБПО</content>
+  <content>DefinedType.ПользовательБПО</content>
+  <content>DefinedType.ОрганизацияБПО</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>Role.ВыполнениеСинхронизацииДанных</content>
+  <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>InformationRegister.ЗначенияЕМРЦ</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>InformationRegister.ПлатежныеОперации</content>
+  <content>Enum.ТипыПлатежныхОпераций</content>
+  <content>Enum.ПериодХраненияИсторииПлатежныхОпераций</content>
+  <content>CommonModule.ГенерацияШтрихкода</content>
+  <content>CommonModule.ГенерацияШтрихкодаСерверПовтИсп</content>
+  <content>CommonTemplate.КомпонентаПечатиШтрихкодов</content>
+  <content>CommonModule.ВнешниеКомпонентыБПО</content>
+  <content>CommonModule.ВнешниеКомпонентыБПОКлиент</content>
+  <content>CommonModule.ВнешниеКомпонентыБПОПереопределяемый</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПОСлужебныйВызовСервера</content>
+  <content>CommonModule.ЛогированиеОперацийБПО</content>
+  <content>CommonModule.ЛогированиеОперацийБПОПереопределяемый</content>
+  <content>CommonModule.ЛогированиеОперацийБПОСлужебныйВызовСервера</content>
+  <content>CommonModule.ОбщегоНазначенияБПО</content>
+  <content>CommonModule.ОбщегоНазначенияБПОКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияБПОКлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияБПОПереопределяемый</content>
+  <content>CommonModule.ОбщегоНазначенияБПОПовтИсп</content>
+  <content>CommonModule.ОбщегоНазначенияБПОСлужебныйВызовСервера</content>
+  <content>Role.БазовыеПраваБПО</content>
+  <content>Enum.ВидыМаркированнойПродукцииБПО</content>
+  <content>CommonModule.МенеджерОборудования</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСерверПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияПовтИсп</content>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБПО</content>
+  <content>CommonCommand.ВыбратьРМТекущегоСеанса</content>
+  <subsystems>ПодключаемоеОборудование</subsystems>
+  <subsystems>ОфлайнОборудование</subsystems>
+  <subsystems>ПечатьЭтикетокИЦенников</subsystems>
+  <subsystems>ЭлектронныеСертификаты</subsystems>
+  <subsystems>СообщенияВСлужбуТехническойПоддержки</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+</mdclass:Subsystem>

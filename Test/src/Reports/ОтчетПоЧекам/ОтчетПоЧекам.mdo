@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adabed54-c827-4bda-b3b1-6075d98c0bd6">
+  <producedTypes>
+    <objectType typeId="65739497-3569-44b1-8584-af7730d50d61" valueTypeId="b96a0655-bbc5-4d4c-9ca1-c3e42136f111"/>
+    <managerType typeId="fb10732d-0c8c-42ef-bf5c-2ac23f1e3d72" valueTypeId="dc2fde0e-a7f5-494a-85e0-e1dde7546536"/>
+  </producedTypes>
+  <name>ОтчетПоЧекам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по чекам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоЧекам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="83a75ab2-8868-4cf7-b3f8-23801ff776af">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="56e36ab6-c409-406a-b1cb-9f12077f4bd4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

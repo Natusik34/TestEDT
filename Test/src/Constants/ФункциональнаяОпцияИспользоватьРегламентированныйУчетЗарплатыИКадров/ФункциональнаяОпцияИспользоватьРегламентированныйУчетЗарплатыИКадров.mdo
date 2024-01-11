@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe33381-f7b4-49b3-9761-cabccae9d585">
+  <producedTypes>
+    <managerType typeId="fd34a8f1-4d1b-4deb-9212-bde0dd1ee1b2" valueTypeId="ad3a7af9-7d16-483d-aa10-5e8bc9ae3ec1"/>
+    <valueManagerType typeId="70d513c8-0880-4225-b356-53c7fd1e4bfa" valueTypeId="0c6131e1-5d26-41e4-96c0-f639e93f9b0d"/>
+    <valueKeyType typeId="87b01ae9-fa02-4129-8a32-f9789f533e6a" valueTypeId="13e29016-1215-4e9c-83fd-753eb1584e0c"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьРегламентированныйУчетЗарплатыИКадров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция использовать регламентированный учет зарплаты и кадров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

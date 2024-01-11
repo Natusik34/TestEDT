@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b56405-fd71-4184-b4a1-a8d78b13db2e">
+  <producedTypes>
+    <objectType typeId="050ab783-c63a-4cad-8e83-e44188380d84" valueTypeId="dae78fa6-d3dc-4189-85b2-c2227ab6efb6"/>
+    <refType typeId="c7ba7c19-dad0-476d-b02c-9fd956f41763" valueTypeId="88e23e3e-e139-4527-88ab-897bdc5bd221"/>
+    <selectionType typeId="ea73da30-d1ae-4aae-b658-0ece5b5ab64d" valueTypeId="002dee95-a2f6-43d3-ad9d-391d2c57e7b5"/>
+    <listType typeId="8d309797-b4a2-419a-b8b5-11d95146d540" valueTypeId="1262ef87-b2ce-4a9c-bcae-6b09b3107691"/>
+    <managerType typeId="54ac334b-72a6-498d-b57a-6fdfc5a37f12" valueTypeId="9c782ea3-fa26-43a3-a960-f8f46ce452bf"/>
+    <containerType typeId="eed73409-25c9-456c-a504-01a1555da638" valueTypeId="b006a0da-520e-4906-9e87-8373900b7e54"/>
+  </producedTypes>
+  <name>РеквизитыДляСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты для списка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.РеквизитыДляСписка.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.РеквизитыДляСписка.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.СегментыКонтрагентов</types>
+    <types>CatalogRef.СегментыНоменклатуры</types>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c777fc8a-1bec-4a0c-b242-7c9a25c89297">
+      <name>РеквизитыКонтрагентов</name>
+      <description>Реквизиты контрагентов</description>
+      <isFolder>true</isFolder>
+      <code>000000001</code>
+      <type/>
+      <content id="1ecff8e5-7222-4299-964c-eb49f9f6c28d">
+        <name>СегментыКонтрагентов</name>
+        <description>Сегменты</description>
+        <code>000000003</code>
+        <type>
+          <types>CatalogRef.СегментыКонтрагентов</types>
+        </type>
+      </content>
+    </items>
+    <items id="3265e9a9-a0b3-4e79-9ab1-6a5e2c9fd938">
+      <name>РеквизитыНоменклатуры</name>
+      <description>Реквизиты номенклатуры</description>
+      <isFolder>true</isFolder>
+      <code>000000002</code>
+      <type/>
+      <content id="c6bf1c75-b106-495f-a4ef-405ef2199beb">
+        <name>СегментыНоменклатуры</name>
+        <description>Сегменты</description>
+        <code>000000004</code>
+        <type>
+          <types>CatalogRef.СегментыНоменклатуры</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cd82bbe4-c5e7-4f8b-a9a6-777ea59bfce3">
+    <name>Множественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Множественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

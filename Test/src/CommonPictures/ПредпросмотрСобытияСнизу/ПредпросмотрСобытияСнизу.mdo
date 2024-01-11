@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c08e4833-82b7-4de2-94ba-885d34877cf6">
+  <name>ПредпросмотрСобытияСнизу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предпросмотр события снизу</value>
+  </synonym>
+</mdclass:CommonPicture>

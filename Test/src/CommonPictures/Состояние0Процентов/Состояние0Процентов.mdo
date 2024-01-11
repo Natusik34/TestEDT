@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f811a4db-5047-41bf-89d7-9b9ea7d79000">
+  <name>Состояние0Процентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние0 процентов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Status0 percent</value>
+  </synonym>
+</mdclass:CommonPicture>

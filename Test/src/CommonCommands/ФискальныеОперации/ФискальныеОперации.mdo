@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69ce35f9-7c28-48b8-9eb7-9b5244019eff">
+  <name>ФискальныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальные операции</value>
+  </synonym>
+  <group>CommandGroup.ИнтеграцияСИнтернетМагазиномИнструменты</group>
+  <commandParameterType>
+    <types>DefinedType.ОснованиеФискальнойОперацииБПО</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

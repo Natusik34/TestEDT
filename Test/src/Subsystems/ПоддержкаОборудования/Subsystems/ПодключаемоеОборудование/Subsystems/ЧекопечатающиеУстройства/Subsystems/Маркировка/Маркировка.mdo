@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d95cf8ff-0d39-4819-ad92-890bf01a4e13">
+  <name>Маркировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МенеджерОборудованияМаркировка</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаВызовСервера</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСервер</content>
+  <content>Enum.ТипыИдентификаторовТовараККТ</content>
+  <content>Enum.ОтветОИСМОСтатусеТовара</content>
+  <content>Enum.СтатусОбработкиЗапросаКМ</content>
+  <content>Enum.СтатусРезультатаЗапросаКМ</content>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование.Subsystem.ЧекопечатающиеУстройства</parentSubsystem>
+</mdclass:Subsystem>

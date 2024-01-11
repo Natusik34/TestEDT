@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb2860a6-dc5f-4bdf-85f8-0775c2ec907e">
+  <name>РаботаСКалендаремВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с календарем вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

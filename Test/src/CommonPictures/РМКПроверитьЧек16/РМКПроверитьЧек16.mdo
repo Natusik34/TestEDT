@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="142476a7-4bc0-4e7d-96f6-96acb7ab7a7a">
+  <name>РМКПроверитьЧек16</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКПроверить чек16</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

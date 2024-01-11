@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd34a264-0beb-4389-b8db-e12732a6a541">
+  <name>ИспользоватьЗакрытиеСуммБезКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать закрытие сумм без количества</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗакрытиеСуммБезКоличества</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.Бюджет</content>
+  <content>Report.ДенежныеСредстваПрогноз</content>
+  <content>Report.ФинансовыйРезультатПрогноз</content>
+  <content>Report.ПрогнозныйБаланс</content>
+  <content>AccumulationRegister.УдалитьДенежныеСредстваПрогноз</content>
+  <content>AccumulationRegister.ФинансовыйРезультатПрогноз</content>
+  <content>Report.БюджетПрибылейИУбытков</content>
+  <content>Report.БюджетДвиженияДенежныхСредств</content>
+  <content>AccumulationRegister.ДоходыИРасходыПрогноз</content>
+  <content>Report.ДоходыИРасходыПрогноз</content>
+  <content>Catalog.СценарииПланирования</content>
+</mdclass:FunctionalOption>

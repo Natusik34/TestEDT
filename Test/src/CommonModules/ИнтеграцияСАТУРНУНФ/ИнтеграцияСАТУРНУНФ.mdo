@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bf0644b-63ae-41e5-adb4-1de3d66d58df">
+  <name>ИнтеграцияСАТУРНУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция САТУРН УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

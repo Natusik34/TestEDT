@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23c128d6-f0a3-4b96-91cd-91728b3d16c0">
+  <producedTypes>
+    <managerType typeId="1cbeebc0-c873-4221-92af-75a33d6d3ef5" valueTypeId="d6a7ecb9-ec8e-4cdb-a812-5d1dbf8d4582"/>
+    <valueManagerType typeId="8192cfb7-92f2-4766-9fb6-1f7312ba66a2" valueTypeId="72af02f1-198d-4a00-83f9-29bc1ec70155"/>
+    <valueKeyType typeId="9516f000-fe69-4c08-ac35-f126bb3a89cc" valueTypeId="9a64d12e-600d-4610-9d30-126a733bbbf9"/>
+  </producedTypes>
+  <name>ИспользоватьОценкуПроизводительностиСинхронизацииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оценку производительности синхронизации данных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

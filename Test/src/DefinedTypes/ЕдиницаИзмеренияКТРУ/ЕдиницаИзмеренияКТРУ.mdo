@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d6f314a-f0c5-45ea-b1fb-83f5d9390469">
+  <producedTypes>
+    <containerType typeId="863908c3-e098-445a-8307-41523935ca0e" valueTypeId="b6e1965e-95c6-4572-911a-81d97c27274d"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияКТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения КТРУ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

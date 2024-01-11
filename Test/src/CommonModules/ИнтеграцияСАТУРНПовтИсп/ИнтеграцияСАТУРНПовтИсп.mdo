@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e02edd50-6625-4a67-b82d-a8d8688c5676">
+  <name>ИнтеграцияСАТУРНПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция САТУРН (повторное использование)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

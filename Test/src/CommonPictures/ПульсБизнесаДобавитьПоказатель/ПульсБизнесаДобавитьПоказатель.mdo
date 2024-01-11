@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaec6fb7-3995-41df-9aba-2e3b9b429d16">
+  <name>ПульсБизнесаДобавитьПоказатель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пульс бизнеса добавить показатель</value>
+  </synonym>
+</mdclass:CommonPicture>

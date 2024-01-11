@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+  <title>
+    <key>ru</key>
+    <value>Правила начисления баллов</value>
+  </title>
+  <items xsi:type="form:Table">
+    <name>ПравилаНачисленияБонусов</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Правила начисления бонусов</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПравилаНачисленияБонусов</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <excludedCommands>CreateFolder</excludedCommands>
+    <excludedCommands>Delete</excludedCommands>
+    <items xsi:type="form:FormField">
+      <name>ПравилаНачисленияБонусовНаименование</name>
+      <id>35</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПравилаНачисленияБонусов.Наименование</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовНаименованиеРасширеннаяПодсказка</name>
+        <id>37</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовНаименованиеКонтекстноеМеню</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПравилаНачисленияБонусовДействует</name>
+      <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПравилаНачисленияБонусов.Действует</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовДействуетРасширеннаяПодсказка</name>
+        <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовДействуетКонтекстноеМеню</name>
+        <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПравилаНачисленияБонусовНазначение</name>
+      <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПравилаНачисленияБонусов.Назначение</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовНазначениеРасширеннаяПодсказка</name>
+        <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовНазначениеКонтекстноеМеню</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПравилаНачисленияБонусовКод</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПравилаНачисленияБонусов.Код</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовКодРасширеннаяПодсказка</name>
+        <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовКодКонтекстноеМеню</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПравилаНачисленияБонусовСсылка</name>
+      <id>56</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПравилаНачисленияБонусов.Ссылка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовСсылкаРасширеннаяПодсказка</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовСсылкаКонтекстноеМеню</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>ПравилаНачисленияБонусовКоманднаяПанель</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
+    </autoCommandBar>
+    <handlers>
+      <event>BeforeAddRow</event>
+      <name>ПравилаНачисленияБонусовПередНачаломДобавления</name>
+    </handlers>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПравилаНачисленияБонусовПриИзменении</name>
+    </handlers>
+    <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ПравилаНачисленияБонусовСтрокаПоиска</name>
+      <id>5</id>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовСтрокаПоискаКонтекстноеМеню</name>
+        <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ПравилаНачисленияБонусовСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ПравилаНачисленияБонусовСостояниеПросмотра</name>
+      <id>8</id>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовСостояниеПросмотраКонтекстноеМеню</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>ПравилаНачисленияБонусовСостояниеПросмотра</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ПравилаНачисленияБонусовУправлениеПоиском</name>
+      <id>11</id>
+      <extendedTooltip>
+        <name>ПравилаНачисленияБонусовУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПравилаНачисленияБонусовУправлениеПоискомКонтекстноеМеню</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>ПравилаНачисленияБонусовУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ПравилаНачисленияБонусовРасширеннаяПодсказка</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПравилаНачисленияБонусовКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <enableDrag>true</enableDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>ПравилаНачисленияБонусов.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef">
+      <picture>CommonPicture.СостояниеСкидкиНаценки</picture>
+    </rowsPicture>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>CatalogObject.БонусныеПрограммы</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ПравилаНачисленияБонусов</name>
+    <title>
+      <key>ru</key>
+      <value>Правила начисления бонусов</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <functionalOptions>FunctionalOption.ИспользоватьБонусныеПрограммы</functionalOptions>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ПравилаНачисленияБонусов.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	СправочникАвтоматическиеСкидки.Наименование КАК Наименование,
+	ВЫБОР
+		КОГДА СправочникАвтоматическиеСкидки.СпособПредоставления = ЗНАЧЕНИЕ(Перечисление.СпособыПредоставленияСкидокНаценок.ПроцентОтСуммыВВидеБонусныхБаллов)
+			ТОГДА ВЫБОР
+					КОГДА СправочникАвтоматическиеСкидки.ЗначениеСкидкиНаценки &lt; 0
+						ТОГДА 32
+					ИНАЧЕ 28
+				КОНЕЦ + ВЫБОР
+					КОГДА СправочникАвтоматическиеСкидки.ЕстьУсловияПоДК
+						ТОГДА 0
+					ИНАЧЕ 40
+				КОНЕЦ
+		КОГДА СправочникАвтоматическиеСкидки.СпособПредоставления = ЗНАЧЕНИЕ(Перечисление.СпособыПредоставленияСкидокНаценок.КоличествоБонусныхБаллов)
+			ТОГДА ВЫБОР
+					КОГДА СправочникАвтоматическиеСкидки.ЗначениеСкидкиНаценки &lt; 0
+						ТОГДА 40
+					ИНАЧЕ 44
+				КОНЕЦ + ВЫБОР
+					КОГДА СправочникАвтоматическиеСкидки.ЕстьУсловияПоДК
+						ТОГДА 0
+					ИНАЧЕ 36
+				КОНЕЦ
+	КОНЕЦ + ВЫБОР
+		КОГДА СправочникАвтоматическиеСкидки.ПометкаУдаления
+			ТОГДА 3
+		ИНАЧЕ 0
+	КОНЕЦ КАК Картинка,
+	СправочникАвтоматическиеСкидки.УдалитьРеквизитДопУпорядочивания КАК РеквизитДопУпорядочивания,
+	СправочникАвтоматическиеСкидки.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникАвтоматическиеСкидки.Действует КАК Действует,
+	СправочникАвтоматическиеСкидки.Ссылка КАК Ссылка,
+	СправочникАвтоматическиеСкидки.Родитель КАК Родитель,
+	СправочникАвтоматическиеСкидки.СпособПредоставления КАК СпособПредоставления,
+	СправочникАвтоматическиеСкидки.Назначение КАК Назначение,
+	СправочникАвтоматическиеСкидки.ОбластьПредоставления КАК ОбластьПредоставления,
+	СправочникАвтоматическиеСкидки.Код КАК Код,
+	СправочникАвтоматическиеСкидки.ЕстьГруппыВУточненииПоНоменклатуре КАК ЕстьГруппыВУточненииПоНоменклатуре,
+	ВЫБОР
+		КОГДА СправочникАвтоматическиеСкидки.Родитель.ВариантСовместногоПрименения = ЗНАЧЕНИЕ(Перечисление.ВариантыСовместногоПримененияСкидокНаценок.Вытеснение)
+				ИЛИ СправочникАвтоматическиеСкидки.Родитель.ВариантСовместногоПрименения = ЗНАЧЕНИЕ(Перечисление.ВариантыСовместногоПримененияСкидокНаценок.Умножение)
+				ИЛИ СправочникАвтоматическиеСкидки.Родитель = ЗНАЧЕНИЕ(Справочник.АвтоматическиеСкидки.ПустаяСсылка)
+					И (ВариантыСовместногоПримененияСкидокНаценок.Значение = ЗНАЧЕНИЕ(Перечисление.ВариантыСовместногоПримененияСкидокНаценок.Вытеснение)
+						ИЛИ ВариантыСовместногоПримененияСкидокНаценок.Значение = ЗНАЧЕНИЕ(Перечисление.ВариантыСовместногоПримененияСкидокНаценок.Умножение))
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК РаскрашиватьЖелтым,
+	СправочникАвтоматическиеСкидки.Комментарий КАК Комментарий,
+	СправочникАвтоматическиеСкидки.ЕстьУсловияПоДК КАК ЕстьУсловияПоДК
+ИЗ
+	Справочник.АвтоматическиеСкидки КАК СправочникАвтоматическиеСкидки,
+	Константа.ВариантыСовместногоПримененияСкидокНаценок КАК ВариантыСовместногоПримененияСкидокНаценок
+ГДЕ
+	НЕ СправочникАвтоматическиеСкидки.ЭтоГруппа
+	И СправочникАвтоматическиеСкидки.ЭтоПравилоНачисленияБонусов
+	И СправочникАвтоматическиеСкидки.БонуснаяПрограмма = &amp;БонуснаяПрограмма
+	И НЕ СправочникАвтоматическиеСкидки.СпособПредоставления = Значение(Перечисление.СпособыПредоставленияСкидокНаценок.Округление)</queryText>
+      <mainTable>Catalog.АвтоматическиеСкидки</mainTable>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Родитель</dataPath>
+        <field>Родитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьОграниченияПоПолучателямКонтрагентам</dataPath>
+        <field>ЕстьОграниченияПоПолучателямКонтрагентам</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоПравилоНачисленияБонусов</dataPath>
+        <field>ЭтоПравилоНачисленияБонусов</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВариантОграниченияПоНоменклатуре</dataPath>
+        <field>ВариантОграниченияПоНоменклатуре</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВалютаПредоставления</dataPath>
+        <field>ВалютаПредоставления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьОграниченияПоПолучателямСкладам</dataPath>
+        <field>ЕстьОграниченияПоПолучателямСкладам</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>БонуснаяПрограмма</dataPath>
+        <field>БонуснаяПрограмма</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВариантОкругления</dataPath>
+        <field>ВариантОкругления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоГруппа</dataPath>
+        <field>ЭтоГруппа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОбластьПредоставления</dataPath>
+        <field>ОбластьПредоставления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаОкончания</dataPath>
+        <field>ДатаОкончания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВариантСовместногоПрименения</dataPath>
+        <field>ВариантСовместногоПрименения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КратноКоличествуУсловий</dataPath>
+        <field>КратноКоличествуУсловий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидЦен</dataPath>
+        <field>ВидЦен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВремяПоДнямНедели</dataPath>
+        <field>ВремяПоДнямНедели</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаНачала</dataPath>
+        <field>ДатаНачала</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьРасписание</dataPath>
+        <field>ЕстьРасписание</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗначениеСкидкиНаценки</dataPath>
+        <field>ЗначениеСкидкиНаценки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУточненияПоКатегориям</dataPath>
+        <field>ЕстьУточненияПоКатегориям</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СпособПредоставления</dataPath>
+        <field>СпособПредоставления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУточненияПоНоменклатуре</dataPath>
+        <field>ЕстьУточненияПоНоменклатуре</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУточненияПоЦеновымГруппам</dataPath>
+        <field>ЕстьУточненияПоЦеновымГруппам</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПорядокОкругления</dataPath>
+        <field>ПорядокОкругления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьРеквизитДопУпорядочивания</dataPath>
+        <field>УдалитьРеквизитДопУпорядочивания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СкидкаНаСледующуюПокупкуПоПромокоду</dataPath>
+        <field>СкидкаНаСледующуюПокупкуПоПромокоду</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьОграниченияПоПолучателямСегментам</dataPath>
+        <field>ЕстьОграниченияПоПолучателямСегментам</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУточненияПоСегментамНоменклатуры</dataPath>
+        <field>ЕстьУточненияПоСегментамНоменклатуры</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Картинка</dataPath>
+        <field>Картинка</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Картинка</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВариантОграниченияПоПолучателям</dataPath>
+        <field>ВариантОграниченияПоПолучателям</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Код</dataPath>
+        <field>Код</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЛюбойПодарокИзСписка</dataPath>
+        <field>ЛюбойПодарокИзСписка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТекстСообщения</dataPath>
+        <field>ТекстСообщения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВыдачиСообщения</dataPath>
+        <field>МоментВыдачиСообщения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Действует</dataPath>
+        <field>Действует</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УсловияПредоставления</dataPath>
+        <field>УсловияПредоставления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПодарокИзКорзиныПокупателя</dataPath>
+        <field>ПодарокИзКорзиныПокупателя</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УчитыватьПодарокКакПродажу</dataPath>
+        <field>УчитыватьПодарокКакПродажу</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СчетЗатратПодарка</dataPath>
+        <field>СчетЗатратПодарка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУсловияПредъявленПромокод</dataPath>
+        <field>ЕстьУсловияПредъявленПромокод</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИдентификаторДляРасчетаВРасширении</dataPath>
+        <field>ИдентификаторДляРасчетаВРасширении</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУсловияАктивацииВручную</dataPath>
+        <field>ЕстьУсловияАктивацииВручную</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДаритьТолькоПолныйКомплект</dataPath>
+        <field>ДаритьТолькоПолныйКомплект</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НоменклатураГруппыЦеновыеГруппы</dataPath>
+        <field>НоменклатураГруппыЦеновыеГруппы</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПолучателиСкидкиКонтрагенты</dataPath>
+        <field>ПолучателиСкидкиКонтрагенты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПолучателиСкидкиСклады</dataPath>
+        <field>ПолучателиСкидкиСклады</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПолучателиСкидкиСегменты</dataPath>
+        <field>ПолучателиСкидкиСегменты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаборПодарков</dataPath>
+        <field>НаборПодарков</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеРеквизиты</dataPath>
+        <field>ДополнительныеРеквизиты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Комментарий</dataPath>
+        <field>Комментарий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РеквизитДопУпорядочивания</dataPath>
+        <field>РеквизитДопУпорядочивания</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Реквизит доп упорядочивания</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Назначение</dataPath>
+        <field>Назначение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьГруппыВУточненииПоНоменклатуре</dataPath>
+        <field>ЕстьГруппыВУточненииПоНоменклатуре</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РаскрашиватьЖелтым</dataPath>
+        <field>РаскрашиватьЖелтым</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Раскрашивать желтым</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьУсловияПоДК</dataPath>
+        <field>ЕстьУсловияПоДК</field>
+      </fields>
+      <parameters>
+        <name>БонуснаяПрограмма</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Бонусная программа</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.БонусныеПрограммы</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+    </extInfo>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+</form:Form>

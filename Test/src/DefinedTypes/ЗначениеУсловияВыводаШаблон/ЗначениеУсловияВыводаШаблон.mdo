@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474ac301-a0e2-438d-a9f3-9d0d60b2f7bc">
+  <producedTypes>
+    <containerType typeId="bc245307-a9d8-49fd-8a4f-d14d37fba236" valueTypeId="d5a82dcc-783b-438a-8792-e9caa02125a4"/>
+  </producedTypes>
+  <name>ЗначениеУсловияВыводаШаблон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение условия вывода шаблон</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.АвтоматическиеСкидки</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.ВидыДисконтныхКарт</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+</mdclass:DefinedType>

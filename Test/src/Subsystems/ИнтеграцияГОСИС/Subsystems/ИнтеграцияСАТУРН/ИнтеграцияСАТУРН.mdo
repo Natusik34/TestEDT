@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c55d77a7-423c-4c72-bd40-6894c37e763a">
+  <name>ИнтеграцияСАТУРН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция САТУРН</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияСАТУРНУНФ</content>
+  <parentSubsystem>Subsystem.ИнтеграцияГОСИС</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16cd7cec-52ad-455d-9df2-fe0fada50881">
+  <name>ДобавлениеИзменениеЖурналаУчетаСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение журнала учета счетов-фактур</value>
+  </synonym>
+</mdclass:Role>
